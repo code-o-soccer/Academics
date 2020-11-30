@@ -1,0 +1,5 @@
+set -tmpdir "/home/this/rca/xst/projnav.tmp"
+set -xsthdpdir "/home/this/rca/xst"
+elaborate
+-ifn bit_serial.prj
+-ifmt mixed

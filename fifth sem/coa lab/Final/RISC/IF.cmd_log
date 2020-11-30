@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/group 10/RISC/IF.xst" -ofn "E:/group 10/RISC/IF.syr" 

@@ -1,0 +1,23 @@
+NET inp[0] LOC="p191";
+NET inp[1] LOC="p190";
+NET inp[2] LOC="p196";
+NET inp[3] LOC="p194";
+NET inp[4] LOC="p198";
+NET inp[5] LOC="p197";
+NET inp[6] LOC="p200";
+NET inp[7] LOC="p199";
+
+
+NET outp[0] LOC="p181";
+NET outp[1] LOC="p176";
+NET outp[2] LOC="p172";
+NET outp[3] LOC="p175";
+NET outp[4] LOC="p169";
+NET outp[5] LOC="p168";
+NET outp[6] LOC="p167";
+NET outp[7] LOC="p171";
+
+NET dir LOC="p18";		//30
+NET shamt[0] LOC="p5";	//8
+NET shamt[1] LOC="p7";	//9
+NET shamt[2] LOC="p3";	//10

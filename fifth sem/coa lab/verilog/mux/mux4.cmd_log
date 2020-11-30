@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/this/mux/mux4.xst" -ofn "/home/this/mux/mux4.syr" 

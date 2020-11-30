@@ -1,0 +1,29 @@
+1
+SELECT A.RollNo,A.name,A.yearofadmission from Student A,Student B, Friend C WHERE A.RollNo = C.OwnRoll AND B.RollNo = C.FriendRoll AND B.name LIKE "%Amit%";
+
+2
+SELECT Title FROM Movie WHERE Title NOT in( SELECT DISTINCT M.Title FROM Movie M, Rating R WHERE R.MID = M.MID);
+
+3
+WITH Direct(MID,Rating) as (SELECT R.MID,SUM(R.Rating) FROM Rating R  GROUP BY R.MID) SELECT M.DirectorName, MAX(R.Rating) as HighestTotalRating FROM Direct R, Movie M  WHERE R.MID = M.MID GROUP BY M.DirectorName;
+
+
+4
+SELECT S.RollNo,S.YearOfAdmission, T.RollNo, T.YearOfAdmission,M.Title ,A.Rating FROM Rating A,Rating B,Student S, Student T,Movie M WHERE EXISTS (SELECT 1  WHERE A.RollNo != B.RollNo AND A.MID = B.MID AND A.Rating = B.rating)  AND S.RollNo = A.RollNo AND B.RollNo = T.RollNo AND A.MID = M.MID;
+
+5
+WITH Total(total) as (SELECT COUNT(*) FROM Friend) SELECT DISTINCT T.Total/COUNT(*) as AvgNo FROM Student ,Total T GROUP BY Total;
+
+6
+WITH Rated (RollNo,MID, Average) as( SELECT S.RollNo,R.MID, AVG(R.Rating) FROM Student S, Rating R WHERE S.RollNo = R.RollNo GROUP BY S.RollNo,R.MID) 
+WITH Total (RollNo, Average) as( SELECT S.RollNo, AVG(R.Rating) FROM Student S, Rating R WHERE S.RollNo = R.RollNo GROUP BY S.RollNo) 
+Select A.rollno,D.average,B.rollno,E.average FROM Rated A, Rated B, Friend C,Total D,Total E WHERE NOT EXISTS (SELECT 1 WHERE A.rollno = C.ownroll AND B.rollno = C.friendroll AND A.MID=B.MID AND A.average > B.average ) AND E.RollNo=B.RollNo AND D.RollNo=A.RollNo;
+
+7
+SELECT M.Title,M.YearOfRelease FROM Student S, Movie M,Rating R WHERE R.MID = M.MID AND R.RollNo = S.RollNo AND M.YearOfRelease < S.YearOfAdmission GROUP BY M.Title, M.YearOfRelease HAVING COUNT(*) > 4;
+
+8
+WITH Reduced_Rating (RollNo,MID) as  (SELECT DISTINCT RollNo,MID FROM Rating) SELECT M.Title, COUNT(*) as NumberOfStudentRatings FROM Reduced_Rating R, Movie M WHERE M.MID = R.MID GROUP BY M.Title ORDER BY (NumberOfStudentRatings) DESC LIMIT 5;
+
+9
+WITH Reduced_Rating (RollNo,MID) as  (SELECT DISTINCT RollNo,MID FROM Rating) , Rate(rated) as (SELECT COUNT(*) as rated FROM Reduced_Rating R, Movie M WHERE M.MID = R.MID GROUP BY M.Title ORDER BY (rated) DESC LIMIT 4,1), total(Title,NumberOfStudentRatings) as (SELECT M.Title,COUNT(*) as NumberOfStudentRatings  FROM Movie M,Rating R, Rate  WHERE M.MID = R.MID GROUP BY M.Title) SELECT Title,NumberOfStudentRatings FROM total,Rate WHERE total.NumberOfStudentRatings = Rate.rated;

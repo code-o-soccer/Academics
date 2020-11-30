@@ -1,0 +1,226 @@
+ISim log file
+Running: C:\Users\Siddhant\Downloads\RISC\risc_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Siddhant/Downloads/RISC/risc_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 48.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port pc is not equal to width 11 of actual signal add_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 26.  For instance if_/M/, width 12 of formal port br_pc is not equal to width 11 of actual signal br_pc.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 50.  For instance if_/M/, width 12 of formal port npc is not equal to width 11 of actual signal npc.
+WARNING:  For instance a_/A/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/S/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BL/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING:  For instance a_/BR/, width 1 of formal port dir is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 26.  For instance SM/M/, width 64 of formal port y is not equal to width 32 of actual signal outp.
+WARNING: File "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 34.  For instance uut/b_/, width 32 of formal port rega is not equal to width 5 of actual signal regt.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

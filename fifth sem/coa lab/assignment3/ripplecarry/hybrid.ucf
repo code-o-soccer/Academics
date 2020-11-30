@@ -1,0 +1,29 @@
+NET a[0] LOC="p191";
+NET a[1] LOC="p190";
+NET a[2] LOC="p196";
+NET a[3] LOC="p194";
+NET a[4] LOC="p198";
+NET a[5] LOC="p197";
+NET a[6] LOC="p200";
+NET a[7] LOC="p199";
+ 
+NET b[0] LOC="p27";
+NET b[1] LOC="p28";
+NET b[2] LOC="p24";
+NET b[3] LOC="p26";
+NET b[4] LOC="p21";
+NET b[5] LOC="p22";
+NET b[6] LOC="p29";
+NET b[7] LOC="p20";
+
+NET sum[0] LOC="p149";
+NET sum[1] LOC="p150";
+NET sum[2] LOC="p147";
+NET sum[3] LOC="p148";
+NET sum[4] LOC="p144";
+NET sum[5] LOC="p146";
+NET sum[6] LOC="p141";
+NET sum[7] LOC="p143";
+
+NET c_in LOC="p18";
+NET c_out LOC="p139";

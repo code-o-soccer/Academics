@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+bit_serial instance_name (
+    .a(a), 
+    .b(b), 
+    .clk(clk), 
+    .reset(reset), 
+    .load(load), 
+    .c_in(c_in), 
+    .sum(sum), 
+    .c_out(c_out)
+    );
+
+

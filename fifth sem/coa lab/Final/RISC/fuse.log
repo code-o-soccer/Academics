@@ -1,0 +1,65 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Siddhant/Downloads/RISC/risc_tb_isim_beh.exe" -prj "C:/Users/Siddhant/Downloads/RISC/risc_tb_beh.prj" "work.risc_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/array_multiplier.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/PC_mux.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/PC_incr.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/PC.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/hybrid_adder.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/barrel_shift_register.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/array_smult.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/write_reg_mux.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/regBank.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/IF.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/ID.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/Data_Mem.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/control.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/branch.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/ALU_MUX.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/risc.v" into library work
+Analyzing Verilog file "C:/Users/Siddhant/Downloads/RISC/risc_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/IF.v" Line 51: Size mismatch in connection of port <pc>. Formal port size is 12-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/ALU.v" Line 51: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/ALU.v" Line 52: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/ALU.v" Line 53: Size mismatch in connection of port <dir>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/ALU.v" Line 54: Size mismatch in connection of port <dir>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/array_smult.v" Line 28: Size mismatch in connection of port <y>. Formal port size is 64-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Siddhant/Downloads/RISC/risc.v" Line 139: Size mismatch in connection of port <rega>. Formal port size is 32-bit while actual signal size is 5-bit.
+Completed static elaboration
+Compiling module PC_mux
+Compiling module PC
+Compiling module PC_incr
+Compiling module IF
+Compiling module ID
+Compiling module control
+Compiling module regBank
+Compiling module ALU_MUX
+Compiling module cla
+Compiling module Adder
+Compiling module mux
+Compiling module shifter_16
+Compiling module shifter_8
+Compiling module shifter_4
+Compiling module shifter_2
+Compiling module shifter_1
+Compiling module barrel_shift_register
+Compiling module array_umult_default
+Compiling module array_smult
+Compiling module ALU
+Compiling module branch
+Compiling module Data_Mem
+Compiling module write_reg_mux
+Compiling module risc
+Compiling module risc_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable C:/Users/Siddhant/Downloads/RISC/risc_tb_isim_beh.exe
+Fuse Memory Usage: 30192 KB
+Fuse CPU Usage: 374 ms

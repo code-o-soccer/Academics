@@ -1,0 +1,4 @@
+verilog work "PC_mux.v"
+verilog work "PC_incr.v"
+verilog work "PC.v"
+verilog work "IF.v"

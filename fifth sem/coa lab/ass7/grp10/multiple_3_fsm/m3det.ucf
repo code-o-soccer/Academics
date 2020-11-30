@@ -1,0 +1,8 @@
+NET inp LOC="p191";
+NET reset LOC="p190";
+NET clk LOC="p76";
+
+NET outp LOC="p149";
+NET slo_clk LOC="p148";
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
